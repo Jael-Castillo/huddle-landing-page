@@ -34,7 +34,8 @@ header button{
     color: hsl(322, 100%, 66%);
 }
 
-/*--Bluid The Community Your Fans Will Love--*/
+/*----Principal Section----*/
+
 .section-principal{
     margin: 50px;
     /* border: 2px solid red; */
@@ -117,4 +118,39 @@ h1{
 .principal-results p{
     font-weight: 400;
     color: #7d8597;
+}
+/*----Second Section-----*/
+.section-profits{
+    margin: 70px 60px 50px 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profit-gt{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.text-gt{
+    padding: 200px 0 0 50px;
+    width:500px;
+    height: 100px;
+    text-align: left;
+}
+.text-gt h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color:hsl(192, 100%, 9%);
+
+}
+.text-gt p{
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+.image-gt img{
+    width: 500px;
 }
