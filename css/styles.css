@@ -35,7 +35,7 @@ header button{
 
 /*----Principal Section----*/
 
-.section-principal{
+.section__principal{
     margin: 50px 50px 0 50px;
     /* border: 2px solid red; */
 }
@@ -47,17 +47,17 @@ h1{
     text-align: center;
     
 }
-.principal-text{
+.section__principal__text{
     font-size: 15px;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
     text-align: center;
 }
 
-.principal-button{
+.section__principal__button{
     text-align: center;
 }
-.pink-button{
+.section__principal__button--pink{
     margin-top: 20px;
     padding: 20px;
     border: 1px solid hsl(322, 100%, 66%);
