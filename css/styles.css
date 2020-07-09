@@ -35,8 +35,8 @@ header{
 
 /*----Section Principal----*/
 
-.section__principal{
-    margin: 50px 50px 0 50px;
+.section-principal{
+    margin: 50px 50px 50px 50px;
     /* border: 2px solid red; */
 }
 
@@ -48,6 +48,8 @@ header{
     
 }
 .section-principal__text{
+    margin: auto;
+    width: 450px;
     font-size: 15px;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
@@ -173,7 +175,7 @@ header{
     width: 500px;
 }
 
-@media screen and (max-width:1439px){
+@media screen and (max-width:1023px){
 
 }
 
@@ -195,13 +197,16 @@ header{
         height: 30px;
         font-size: .8rem;
     }
+    .section-principal{
+        margin: 0;
+    }
     .section-principal__title{
         font-size: 1.5em;
         margin: 30px 40px 20px 40px;
         font-weight: 700;
     }
     .section-principal__text{
-        margin: 15px 34px;
+        width: 290px;
     }
     .button--pink{
         margin-top: 30px;
@@ -211,12 +216,12 @@ header{
         font-size: .8em;
     }
     .section-principal__figure{
-        margin: 90px 50px 0 40px;
+        margin: 90px 40px 0 40px;
         padding:0;
         text-align:center;
     }
     .section-principal__figure img{
-        width: 300px;
+        width: 100%;
         text-align: center;
     }
 
