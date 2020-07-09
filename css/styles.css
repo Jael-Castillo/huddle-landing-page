@@ -13,13 +13,13 @@ header{
     align-items: center;
 }
 
-header img{
+.header__logo{
     margin: 50px 0px 40px 60px;
     padding: 10px;
     width: 200px;
 }
 
-header button{
+.header__button{
     margin: 50px 60px 40px 0px;
     padding: 5px;
     width: 120px;
@@ -33,31 +33,31 @@ header button{
     color: hsl(322, 100%, 66%);
 }
 
-/*----Principal Section----*/
+/*----Section Principal----*/
 
 .section__principal{
     margin: 50px 50px 0 50px;
     /* border: 2px solid red; */
 }
 
-h1{
+.section-principal__title{
     font-size: 35px;
     font-weight: 700;
     color: hsl(192, 100%, 9%);
     text-align: center;
     
 }
-.section__principal__text{
+.section-principal__text{
     font-size: 15px;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
     text-align: center;
 }
 
-.section__principal__button{
+.section-principal__button{
     text-align: center;
 }
-.section__principal__button--pink{
+.button--pink{
     margin-top: 20px;
     padding: 20px;
     border: 1px solid hsl(322, 100%, 66%);
@@ -69,22 +69,22 @@ h1{
     font-weight: 600;
     box-shadow: 2px 2px 15px grey;
 }
-.pink-button a{
+.button--pink a{
     text-decoration: none;
     color: white;
 }
 
-.principal-image{
+.section-principal__figure{
     margin: 50px 50px 0 50px;
     padding: 30px;
     text-align: center;
 }
 
-.principal-image img{
+.section-principal__figure img{
     width: 700px;
 }
 
-.principal-results{
+.section-principal__content-results{
     margin: 0 50px 0 50px;
     padding: 20px;
     /* border: 2px solid blue; */
@@ -95,33 +95,37 @@ h1{
     text-align: center;
 }
 
-.results-communities, .results-messages{
+.box-result__communities, 
+.box-result__messages{
     margin: auto;
     padding: 20px;
     /* border: 2px solid palevioletred; */
 }
 
-.communities-img, .messages-img{
+.communities__figure, 
+.messages__figure{
     margin: 0 120px 0 0;
 }
-.communities-img img, 
-.messages-img img{
+
+.communities__figure img, 
+.messages__figure img{
     width: 30px;
 }
 
-.numbers{
+.communities__number, 
+.messages__number{
     font-size: 60px;
     margin: 0;
     color:hsl(192, 100%, 9%);
 }
-.principal-results p{
+
+.communities__text, 
+.messages__text{
     font-weight: 400;
     color: #7d8597;
 }
 
-
-
-/*----Second Section-----*/
+/*----Section Profits-----*/
 
 .section-profits{
     margin: 0;
@@ -134,14 +138,14 @@ h1{
     /* background-color: red; */
 }
 
-.profit-gt{
+.section-profits__gt{
     margin: 0;
     padding: 0 4px 0 4px;
     display: flex;
     justify-content: space-between;
     background-color: hsl(207, 100%, 98%);
 }
-.text-gt{
+.gt__content{
     margin: 90px;
     padding: 68px;;
     width:500px;
@@ -149,22 +153,71 @@ h1{
     text-align: left;
   
 }
-.text-gt h2{
+.gt__content__title{
     font-size: 40px;
     font-weight: 700;
     margin: 0;
     color:hsl(192, 100%, 9%);
 
 }
-.text-gt p{
+.gt__content__text{
     font-weight: 400;
     color: hsl(192, 100%, 9%);
 }
 
-.image-gt{
+.gt__figure{
     margin: 0;
     background-color: hsl(207, 100%, 98%);
 }
-.image-gt img{
+.gt__figure img{
     width: 500px;
+}
+
+@media screen and (max-width:1439px){
+
+}
+
+@media screen and (max-width:375px){
+    header{
+        padding:0 15px 0 15px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__logo{
+        margin: 0;
+        width: 100px;
+        height: 18px;
+    }
+    .header__button{
+        margin: 0;
+        width: 100px;
+        height: 30px;
+        font-size: .8rem;
+    }
+    .section-principal__title{
+        font-size: 1.5em;
+        margin: 30px 40px 20px 40px;
+        font-weight: 700;
+    }
+    .section-principal__text{
+        margin: 15px 34px;
+    }
+    .button--pink{
+        margin-top: 30px;
+        padding: 0;
+        width: 200px;
+        height: 44px;
+        font-size: .8em;
+    }
+    .section-principal__figure{
+        margin: 90px 50px 0 40px;
+        padding:0;
+        text-align:center;
+    }
+    .section-principal__figure img{
+        width: 300px;
+        text-align: center;
+    }
+
 }
