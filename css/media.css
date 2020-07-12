@@ -110,7 +110,7 @@
     }
     .profits__gt-wrapper{
         margin: 0;
-        width: 27rem;
+        width: 40rem;
         border: 3px;
     }
     .profits__text-wrapper{
@@ -133,7 +133,21 @@
     }
     .profits__flowingc-wrapper{
         margin: 8rem 0 0 0;
-        width: 27rem;
+        width: 40rem;
+        border: 3px;
+
+    }
+}
+@media screen and (max-width:375px){
+    .profits__gt-wrapper{
+        margin: 0;
+        width: 30rem;
+        border: 3px;
+    }
+    
+    .profits__flowingc-wrapper{
+        margin: 8rem 0 0 0;
+        width: 30rem;
         border: 3px;
 
     }
