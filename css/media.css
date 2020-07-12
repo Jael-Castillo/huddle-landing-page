@@ -19,6 +19,8 @@
 }
 /*----Mobile-----*/
 @media screen and (max-width:480px){
+    
+    /*----Section Principal-----*/
     .header{
         margin: 0;
         padding:0 1.5rem;
@@ -32,6 +34,10 @@
         height: 18px;
     }
     .header__button{
+        margin: 0;
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
         margin: 0;
         width: 10rem;
         height: 3rem;
@@ -78,7 +84,6 @@
     .presentation__content-results__messages{
         margin: auto;
         padding: 2rem;
-        /* border: 2px solid palevioletred; */
     }
     .presentation__content-results__messages{
         margin-top: 6rem;
@@ -99,5 +104,34 @@
         color:hsl(192, 100%, 9%);
     }
 
+    /*----Section Profits-----*/
+    .profits{
+        margin: 2.5rem;
+    }
+    .profits__gt-wrapper{
+        margin: 0;
+        width: 50rem;
+        border: 3px;
+    }
+    .profits__text-wrapper{
+        margin: 6rem auto 5rem auto;
+        width: 33.3rem;
+        text-align: center;
+    }
+    .profits__title-wrapper{
+        font-size: 3rem;
+    }
+    .profits__text-wrapper p{
+        font-size: 1.5rem;
+    }
+    .profits__image-wrapper{
+        margin: auto;
+        width: 25rem;
+    }
+    .profits__flowingc-wrapper{
+        margin: 8rem 0 0 0;
+        width: 50rem;
+        border: 3px;
 
+    }
 }
