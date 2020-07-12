@@ -8,41 +8,45 @@
   <link href="https://fonts.google.com/specimen/Open+Sans" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
 
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 <body>
   
-  <header>
+  <header class="header">
     <img class="header__logo" src="images/logo.svg">
     <button class="header__button">Try it Free</button>
   </header>
 
-  <section class="section-principal">
-        <h1 class="section-principal__title">Bluid The Community Your Fans Will Love</h1>
-        <p class="section-principal__text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-          Create connections with your users as you engagein genuine discussion.
-        </p>
-        <div class="section-principal__button">
-          <button class="button--pink"><a href="#none">Get Started For Free</a></button>
+  <section class="presentation">
+        <h1 class="presentation__title">Bluid The Community Your Fans Will Love</h1>
+        <div class="presentation__text">
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+            Create connections with your users as you engagein genuine discussion.
+          </p>
+      </div>
+        <div class="presentation__content-btn">
+          <button class="presentation__content-btn--pink"><a href="#none">Get Started For Free</a></button>
         </div>
-        <figure class="section-principal__figure">
+        <figure class="presentation__figure">
           <img src="images/screen-mockups.svg" alt="screen-mockups">
         </figure>
-        <div class="section-principal__content-results">
-          <div class="box-result__communities">
-            <figure class="communities__figure">
+        <div class="presentation__content-results">
+          <div class="presentation__content-results__communities">
+            <figure class="presentation__content-results__communities__content-img">
               <img src="images/icon-communities.svg">
             </figure>
-            <h2 class="communities__number">1.4k+</h2>
-            <p class="communities__text">Communties Formed</p>
+            <h2 class="presentation__content-results_communities-number">1.4k+</h2>
+            <p>Communties Formed</p>
           </div>
-          <div class="box-result__messages">
-            <figure class="communities__figure">
+          <div class="presentation__content-results__messages">
+            <figure class="presentation__content-results__messages__content-img">
               <img src="images/icon-messages.svg">
             </figure>
-            <h2 class="messages__number">2.7m+</h2>
-            <p class="messages__text">Messages</p>
+            <h2 class="presentation__content-results_messages-number">2.7m+</h2>
+            <p>Messages</p>
           </div>
         </div>
   </section>
