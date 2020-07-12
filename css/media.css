@@ -110,7 +110,7 @@
     }
     .profits__gt-wrapper{
         margin: 0;
-        width: 30rem;
+        width: 27rem;
         border: 3px;
     }
     .profits__text-wrapper{
@@ -119,10 +119,13 @@
         text-align: center;
     }
     .profits__title-wrapper{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .profits__text-wrapper p{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+    .flowingc p{
+        font-size: 1.3rem;
     }
     .profits__image-wrapper{
         margin: auto;
@@ -130,7 +133,7 @@
     }
     .profits__flowingc-wrapper{
         margin: 8rem 0 0 0;
-        width: 30rem;
+        width: 27rem;
         border: 3px;
 
     }
