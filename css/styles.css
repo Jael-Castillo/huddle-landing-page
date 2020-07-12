@@ -10,14 +10,16 @@ body{
 
 /*----Header----*/
 .header{
-    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__logo{
-    margin: 50px 0px 40px 60px;
+    margin: 50px 0px 40px 35px;
     padding: 10px;
     width: 200px;
 }
@@ -44,6 +46,7 @@ body{
 }
 
 .presentation__title{
+    margin-top: 20rem;
     font-size: 50px;
     font-weight: 700;
     color: hsl(192, 100%, 9%);
@@ -91,7 +94,7 @@ body{
 }
 
 .presentation__content-results{
-    margin: 0 50px 0 50px;
+    margin: 0 50px;
     padding: 20px;
     /* border: 2px solid blue; */
     display: flex;
@@ -110,23 +113,24 @@ body{
 
 .presentation__content-results__communities__content-img, 
 .presentation__content-results__messages__content-img{
-    margin: 0 120px 0 0;
+    margin: 0 19rem 0 0;
 }
 
 .presentation__content-results__communities__content-img img, 
 .presentation__content-results__messages__content-img img{
-    width: 30px;
+    width: 40px;
 }
 
 .presentation__content-results_communities-number, 
 .presentation__content-results_messages-number{
-    font-size: 60px;
+    font-size: 9rem;
     margin: 0;
     color:hsl(192, 100%, 9%);
 }
 
 .presentation__content-results__communities p, 
 .presentation__content-results__messages p{
+    font-size: 2rem;
     font-weight: 400;
     color: #7d8597;
 }
@@ -153,7 +157,7 @@ body{
 }
 .gt__content{
     margin: 90px;
-    padding: 68px;;
+    padding: 68px;
     width:500px;
     height: 100px;
     text-align: left;
