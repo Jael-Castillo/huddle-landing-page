@@ -1,12 +1,15 @@
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
+html{
+    font-size: 62.5%;
+}
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
 /*----Header----*/
-header{
+.header{
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -35,32 +38,32 @@ header{
 
 /*----Section Principal----*/
 
-.section-principal{
-    margin: 50px 50px 50px 50px;
+.presentation{
+    margin: 50px;
     /* border: 2px solid red; */
 }
 
-.section-principal__title{
-    font-size: 35px;
+.presentation__title{
+    font-size: 50px;
     font-weight: 700;
     color: hsl(192, 100%, 9%);
     text-align: center;
     
 }
-.section-principal__text{
+.presentation__text{
     margin: auto;
-    width: 450px;
-    font-size: 15px;
+    width: 600px;
+    font-size: 20px;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
     text-align: center;
 }
 
-.section-principal__button{
+.presentation__content-btn{
+    margin: 50px;
     text-align: center;
 }
-.button--pink{
-    margin-top: 20px;
+.presentation__content-btn--pink{
     padding: 20px;
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 50px;
@@ -71,22 +74,23 @@ header{
     font-weight: 600;
     box-shadow: 2px 2px 15px grey;
 }
-.button--pink a{
+.presentation__content-btn--pink a{
     text-decoration: none;
     color: white;
 }
 
-.section-principal__figure{
-    margin: 50px 50px 0 50px;
-    padding: 30px;
+.presentation__figure{
+    margin: 50px 90px;
+    padding: 50px;
     text-align: center;
 }
 
-.section-principal__figure img{
-    width: 700px;
+.presentation__figure img{
+    width: 100%;
+    text-align: center;
 }
 
-.section-principal__content-results{
+.presentation__content-results{
     margin: 0 50px 0 50px;
     padding: 20px;
     /* border: 2px solid blue; */
@@ -97,32 +101,32 @@ header{
     text-align: center;
 }
 
-.box-result__communities, 
-.box-result__messages{
+.presentation__content-results__communities, 
+.presentation__content-results__messages{
     margin: auto;
     padding: 20px;
     /* border: 2px solid palevioletred; */
 }
 
-.communities__figure, 
-.messages__figure{
+.presentation__content-results__communities__content-img, 
+.presentation__content-results__messages__content-img{
     margin: 0 120px 0 0;
 }
 
-.communities__figure img, 
-.messages__figure img{
+.presentation__content-results__communities__content-img img, 
+.presentation__content-results__messages__content-img img{
     width: 30px;
 }
 
-.communities__number, 
-.messages__number{
+.presentation__content-results_communities-number, 
+.presentation__content-results_messages-number{
     font-size: 60px;
     margin: 0;
     color:hsl(192, 100%, 9%);
 }
 
-.communities__text, 
-.messages__text{
+.presentation__content-results__communities p, 
+.presentation__content-results__messages p{
     font-weight: 400;
     color: #7d8597;
 }
@@ -173,56 +177,4 @@ header{
 }
 .gt__figure img{
     width: 500px;
-}
-
-@media screen and (max-width:1023px){
-
-}
-
-@media screen and (max-width:480px){
-    header{
-        padding:0 15px 0 15px;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .header__logo{
-        margin: 0;
-        width: 100px;
-        height: 18px;
-    }
-    .header__button{
-        margin: 0;
-        width: 100px;
-        height: 30px;
-        font-size: .8rem;
-    }
-    .section-principal{
-        margin: 0;
-    }
-    .section-principal__title{
-        font-size: 1.5em;
-        margin: 30px 40px 20px 40px;
-        font-weight: 700;
-    }
-    .section-principal__text{
-        width: 290px;
-    }
-    .button--pink{
-        margin-top: 30px;
-        padding: 0;
-        width: 200px;
-        height: 44px;
-        font-size: .8em;
-    }
-    .section-principal__figure{
-        margin: 90px 40px 0 40px;
-        padding:0;
-        text-align:center;
-    }
-    .section-principal__figure img{
-        width: 100%;
-        text-align: center;
-    }
-
 }
