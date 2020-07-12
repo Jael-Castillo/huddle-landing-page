@@ -38,7 +38,7 @@ body{
     color: hsl(322, 100%, 66%);
 }
 
-/*----Section Principal----*/
+/*----Principal Section----*/
 
 .presentation{
     margin: 50px;
@@ -170,7 +170,7 @@ body{
     color:hsl(192, 100%, 9%);
 
 }
-.profits__gt-wrapper_text-wrapper p{
+.profits__text-wrapper p{
     font-size: 15px;
     font-weight: 400;
     color: hsl(192, 100%, 9%);
