@@ -1,0 +1,103 @@
+@media screen and (max-width:1030px){
+    .presentation__figure{
+        margin: 9rem 11rem;
+        padding:0;
+        text-align:center;
+    }
+    .presentation__figure img{
+        width: 100%;
+        text-align: center;
+    }
+}
+/*----Tablet----*/
+@media screen and (max-width:768px){
+    
+    .presentation__figure img{
+        width: 100%;
+        text-align: center;
+    }
+}
+/*----Mobile-----*/
+@media screen and (max-width:480px){
+    .header{
+        margin: 0;
+        padding:0 1.5rem;
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__logo{
+        margin: 0;
+        width: 10rem;
+        height: 18px;
+    }
+    .header__button{
+        margin: 0;
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.2rem
+    }
+    .presentation{
+        margin: 2rem;
+    }
+    .presentation__title{
+        margin-top: 6rem;
+        margin-bottom: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    .presentation__text{
+        font-size: 1.4rem;
+        width: 29rem;
+    }
+    .presentation__content-btn{
+        margin: 4rem;
+    }
+    .presentation__content-btn--pink{
+        padding:0;
+        width: 20rem;
+        height: 4.4rem;
+        font-size: 1.3rem;
+    }
+    .presentation__figure{
+        margin: 7rem 1rem;
+        padding:0;
+        text-align:center;
+    }
+    .presentation__figure img{
+        width: 100%;
+        text-align: center;
+    }
+    .presentation__content-results{
+        padding: 0;
+        margin: 0 1rem;
+    }
+    .presentation__content-results__communities, 
+    .presentation__content-results__messages{
+        margin: auto;
+        padding: 2rem;
+        /* border: 2px solid palevioletred; */
+    }
+    .presentation__content-results__messages{
+        margin-top: 6rem;
+    }
+
+    .presentation__content-results__communities__content-img, 
+    .presentation__content-results__messages__content-img{
+        margin: 0 12rem 0 0;
+    }
+    .presentation__content-results__communities__content-img img, 
+    .presentation__content-results__messages__content-img img{
+        width: 3rem;
+    }
+    .presentation__content-results_communities-number, 
+    .presentation__content-results_messages-number{
+        font-size: 7rem;
+        margin: 0;
+        color:hsl(192, 100%, 9%);
+    }
+
+
+}
