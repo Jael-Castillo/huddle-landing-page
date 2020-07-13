@@ -1,4 +1,5 @@
-@media screen and (max-width:1030px){
+@media screen and (min-width:1440px){
+    /*----Section Principal-----*/
     .presentation__figure{
         margin: 9rem 11rem;
         padding:0;
@@ -8,13 +9,24 @@
         width: 100%;
         text-align: center;
     }
+
+    /*----Section Profits-----*/
+    .profits__image-wrapper{
+        margin:auto 178px;
+    }
 }
 /*----Tablet----*/
 @media screen and (max-width:768px){
     
+    /*----Section Principal-----*/
     .presentation__figure img{
         width: 100%;
         text-align: center;
+    }
+    /*----Section Profits-----*/
+    .profits__gt-wrapper, 
+    .profits__flowingc-wrapper{
+        margin:50px;
     }
 }
 /*----Mobile-----*/
@@ -106,11 +118,12 @@
 
     /*----Section Profits-----*/
     .profits{
-        margin: 2.5rem;
+        margin: 0;
+        /* margin: 2.5rem; */
     }
     .profits__gt-wrapper{
         margin: 0;
-        width: 40rem;
+        width: 42.5rem;
         border: 3px;
     }
     .profits__text-wrapper{
@@ -133,21 +146,7 @@
     }
     .profits__flowingc-wrapper{
         margin: 8rem 0 0 0;
-        width: 40rem;
-        border: 3px;
-
-    }
-}
-@media screen and (max-width:375px){
-    .profits__gt-wrapper{
-        margin: 0;
-        width: 30rem;
-        border: 3px;
-    }
-    
-    .profits__flowingc-wrapper{
-        margin: 8rem 0 0 0;
-        width: 30rem;
+        width: 42.5rem;
         border: 3px;
 
     }
