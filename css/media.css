@@ -12,7 +12,7 @@
 
     /*----Section Profits-----*/
     .profits__image-wrapper{
-        margin:auto 178px;
+        margin:auto 180px;
     }
 }
 /*----Tablet----*/
@@ -121,33 +121,26 @@
         margin: 0;
         /* margin: 2.5rem; */
     }
-    .profits__gt-wrapper{
+    .profits__gt-wrapper, 
+    .profits__flowingc-wrapper{
         margin: 0;
-        width: 42.5rem;
-        border: 3px;
     }
     .profits__text-wrapper{
         margin: 6rem auto 5rem auto;
-        width: 33.3rem;
+        width:30rem;
         text-align: center;
     }
     .profits__title-wrapper{
         font-size: 2rem;
     }
-    .profits__text-wrapper p{
-        font-size: 1.4rem;
-    }
-    .flowingc p{
-        font-size: 1.3rem;
+    .profits__text-wrapper p{ 
+        margin: 13px auto;
+        width: auto;
+        font-size: 1.5rem;
     }
     .profits__image-wrapper{
         margin: auto;
         width: 25rem;
     }
-    .profits__flowingc-wrapper{
-        margin: 8rem 0 0 0;
-        width: 42.5rem;
-        border: 3px;
 
-    }
 }
