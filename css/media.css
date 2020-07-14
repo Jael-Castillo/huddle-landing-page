@@ -9,25 +9,6 @@
         width: 100%;
         text-align: center;
     }
-
-    /*----Section Profits-----*/
-    .profits__image-wrapper{
-        margin:auto 180px;
-    }
-}
-/*----Tablet----*/
-@media screen and (max-width:768px){
-    
-    /*----Section Principal-----*/
-    .presentation__figure img{
-        width: 100%;
-        text-align: center;
-    }
-    /*----Section Profits-----*/
-    .profits__gt-wrapper, 
-    .profits__flowingc-wrapper{
-        margin:50px;
-    }
 }
 /*----Mobile-----*/
 @media screen and (max-width:480px){
@@ -73,7 +54,8 @@
     .presentation__content-btn{
         margin: 4rem;
     }
-    .presentation__content-btn--pink{
+    .presentation__content-btn--pink,
+    .rc__wrapper--center_btn--pink{
         padding:0;
         width: 20rem;
         height: 4.4rem;
@@ -117,28 +99,75 @@
     }
 
     /*----Section Profits-----*/
-    .profits{
-        margin: 0;
-        /* margin: 2.5rem; */
+    .gt__curve-top1-image{
+        background: transparent url(/images/bg-section-top-mobile-1.svg) no-repeat 0 0;
+        background-size: cover;
+        width: 100%;
+        height: 12rem;
     }
-    .profits__gt-wrapper, 
-    .profits__flowingc-wrapper{
+    
+    .gt__curve-bottom1-image{
+        background: transparent url(/images/bg-section-bottom-mobile-1.svg) no-repeat 0 0;
+        background-size: cover;
+        width: 100%;
+        height: 7rem;
+        margin-bottom: 8rem;
+    }
+    .yu__curve-top2-image{
+        background: transparent url(/images/bg-section-top-mobile-2.svg) no-repeat 0 0;
+        background-size: cover;
+        width: 100%;
+        height: 12rem;
+        margin-top: 8rem;
+    }
+    .yu__curve-bottom2-image{
+        background: transparent url(/images/bg-section-bottom-mobile-2.svg) no-repeat 0 0;
+        background-size: cover;
+        width: 100%;
+        height: 12rem;
+        margin-bottom: 8rem;
+    }
+
+    .gt,.fc,.yu{
         margin: 0;
     }
-    .profits__text-wrapper{
+    .gt__wrapper, 
+    .fc__wrapper,
+    .yu__wrapper{
+        margin: 0;
+    }
+    .gt__wrapper__text-wrapper,
+    .fc__wrapper__text-wrapper,
+    .yu__wrapper__text-wrapper{
         margin: 6rem auto 5rem auto;
         width:30rem;
         text-align: center;
     }
-    .profits__title-wrapper{
+
+    .gt__wrapper__text-wrapper__title,
+    .fc__wrapper__text-wrapper__title,
+    .yu__wrapper__text-wrapper__title{
         font-size: 2rem;
     }
-    .profits__text-wrapper p{ 
-        margin: 13px auto;
+    .rc__wrapper--center__title{
+        font-size: 3rem;
+    }
+    .gt__wrapper__text-wrapper p,
+    .fc__wrapper__text-wrapper p,
+    .yu__wrapper__text-wrapper p{ 
+        margin: 1.3rem -1.2rem;
         width: auto;
         font-size: 1.5rem;
     }
-    .profits__image-wrapper{
+    .gt__wrapper__text-wrapper p{
+        width: 32.9rem
+    }
+    .fc__wrapper__text-wrapper p{
+        margin: 1.3rem -1.7rem;
+    }
+    .gt__wrapper__image-wrapper,
+    .fc__wrapper__image-wrapper,
+    .yu__wrapper__image-wrapper{
         margin: auto;
         width: 25rem;
     }
