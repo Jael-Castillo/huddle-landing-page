@@ -10,6 +10,35 @@
         text-align: center;
     }
 }
+/* ---Tablet--- */
+
+@media screen and (min-width:768px){
+
+    .presentation__figure img{
+        width: 100%;
+        text-align: center;
+    }
+    .wrapper,
+    .fc_wrapper--wrap{
+        flex-wrap: nowrap;
+    }
+    .wrapper__info-wrapper{
+        margin-left: 10px;
+        width: 450px;
+    }
+    .fc_info-wrapper{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .wrapper__image-wrapper{
+        margin-left: 20px;
+    }
+    .fc__image-wrapper{
+        /* margin-left: 0; */
+        margin-right: 30px;
+    }
+}
+
 /*----Mobile-----*/
 @media screen and (max-width:480px){
     
@@ -51,11 +80,11 @@
         font-size: 1.4rem;
         width: 29rem;
     }
-    .presentation__content-btn{
+    .btn{
         margin: 4rem;
     }
-    .presentation__content-btn--pink,
-    .rc__wrapper--center_btn--pink{
+    .btn--pink,
+    .rc-btn--pink{
         padding:0;
         width: 20rem;
         height: 4.4rem;
@@ -131,43 +160,38 @@
     .gt,.fc,.yu{
         margin: 0;
     }
-    .gt__wrapper, 
-    .fc__wrapper,
-    .yu__wrapper{
+    .wrapper{
         margin: 0;
     }
-    .gt__wrapper__text-wrapper,
-    .fc__wrapper__text-wrapper,
-    .yu__wrapper__text-wrapper{
+    .fc__image-wrapper--color, .yu, .rc{
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .wrapper__info-wrapper{
         margin: 6rem auto 5rem auto;
         width:30rem;
         text-align: center;
     }
 
-    .gt__wrapper__text-wrapper__title,
-    .fc__wrapper__text-wrapper__title,
-    .yu__wrapper__text-wrapper__title{
+    .wrapper__title{
         font-size: 2rem;
     }
-    .rc__wrapper--center__title{
+    .rc__tittle{
         font-size: 3rem;
     }
-    .gt__wrapper__text-wrapper p,
-    .fc__wrapper__text-wrapper p,
-    .yu__wrapper__text-wrapper p{ 
+    .wrapper__text{ 
         margin: 1.3rem -1.2rem;
         width: auto;
         font-size: 1.5rem;
     }
-    .gt__wrapper__text-wrapper p{
+    .gt__text{
         width: 32.9rem
     }
-    .fc__wrapper__text-wrapper p{
+    .fc_text p{
         margin: 1.3rem -1.7rem;
     }
-    .gt__wrapper__image-wrapper,
-    .fc__wrapper__image-wrapper,
-    .yu__wrapper__image-wrapper{
+    .wrapper__image-wrapper{
         margin: auto;
         width: 25rem;
     }
