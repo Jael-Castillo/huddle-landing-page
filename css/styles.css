@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  border: solid;
+}
+
 html{
     font-size: 62.5%;
 }
@@ -312,7 +316,7 @@ body{
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 4px;
     background-color:hsl(322, 100%, 66%);
-    box-shadow: 2px 2px 15px grey;
+    box-shadow: 1px 2px 15px rgb(0 0 0 / 43%);
     color: white;
     font-size: 16px;
     font-weight: 600;
